@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("background1.png");
+        text-align: center;
+        color: white;
+    }
+
+    .titlecard {
+        background-color: rgba(0, 0, 0, 0.5);
+        float: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2% 5%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.5);
+        font-family: Arial;
+    }
+
+    /* Center website */
+    .main {
+        max-width: 2000px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 50px;
+        word-break: break-all;
+    }
+
+    .row {
+        margin: 8px -16px;
+    }
+
+    /* Add padding BETWEEN each column */
+    .row,
+    .row>.column {
+        padding: 8px;
+    }
+
+    /* Create four equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    /* Clear floats after rows */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Content */
+    .content {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+        .column {
+            width: 50%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+
+    .quote {
+        padding: 2%;
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 10px;
+    }
+
+    .navbuttons {
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+    }
+
+    .topleft:hover {
+        filter: invert(100%);
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Solomon Garcia</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+        <div class="topleft"><a href="index.html"><img src="newLogoIcon.png" alt="logo"
+                    style="width: 75px; margin-top: 10%;"></a></div>
+        <img class="w3-image" src="background3.png" alt="Roxanne" width="1500" height="600">
+        <div class="titlecard">
+            <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">My Work</h1>
+            <h5 class="w3-hide-large" style="white-space:nowrap">My Work</h5>
+        </div>
+        <!-- Navbar (placed at the bottom of the header image) -->
+        <div class="w3-bar w3-light-grey w3-round w3-display-topmiddle w3-hide-small">
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="journey.html" class="w3-bar-item w3-button">My Journey</a>
+            <a href="sketch.html" class="w3-bar-item w3-button">Sketchbook</a>
+            <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        </div>
+    </header>
+    <!-- Page content -->
+    <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="Art/YsabeltheHatOfDisguiseSmall.PNG" alt="Ysabel&HerHatofDisguise" style="width:100%">
+                    <h3>"Ysabel's Magic Hat"</h3>
+                    <p>12/29/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/YsabelAuroraCover.PNG" alt="Ysabel&Aurora" style="width:100%">
+                    <h3>"Ysabel & Aurora"</h3>
+                    <p>12/26/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Goose.PNG" alt="Goose" style="width:100%">
+                    <h3>"Goose"</h3>
+                    <p>12/23/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Horse.jpg" alt="Horse" style="width:100%">
+                    <h3>"A Horse"</h3>
+                    <p>12/19/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/CHADwickStokesGraffitiArt.jpg" alt="Ysabel" style="width:100%">
+                    <h3>Portrait of Chadwick Stokes</h3>
+                    <p>12/14/22 (Fanart)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/batman.PNG" alt="Batman" style="width:100%">
+                    <h3>Batman</h3>
+                    <p>10/28/22 (Fanart)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Witch.jpg" alt="Witch" style="width:100%">
+                    <h3>"A Witch and Her Cauldron"</h3>
+                    <p>9/30/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/MouseRanger.PNG" alt="Mousefolk" style="width:100%">
+                    <h3>"A Mouse Ranger"</h3>
+                    <p>12/10/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Lilian Martikov.png" alt="Lilian" style="width:100%">
+                    <h3>"Lilian Martikov"</h3>
+                    <p>11/30/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/U.M.Roxanne.PNG" alt="HoopEarring" style="width:100%">
+                    <h3>"U.M. Roxanne"</h3>
+                    <p>8/17/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Mouse Druid.jpg" alt="MouseDruid" style="width:100%">
+                    <h3>"Mouse Druid"</h3>
+                    <p>10/7/21 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/DamienDarkHeritageCasting.png" alt="Damien" style="width:100%">
+                    <h3>"Damien Icarus Olsen"</h3>
+                    <p>7/15/22 (Original)</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="Art/larose.jpg" alt="LaRose" style="width:100%">
+                    <h3>"All Eyes are on LaRose"</h3>
+                    <p>12/30/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/HipsterDemonChick.PNG" alt="Hipster Demon Chick" style="width:100%">
+                    <h3>"Hipster Demon Chick"</h3>
+                    <p>12/26/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Fox.jpg" alt="Fox" style="width:100%">
+                    <h3>"Oragami"</h3>
+                    <p>12/20/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Planet.jpg" alt="Saturn" style="width:100%">
+                    <h3>"Space is a Place"</h3>
+                    <p>12/19/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Rockerboy Iggy Portrait v2.PNG" alt="Iggy" style="width:100%">
+                    <h3>"Iggy Ramirez"</h3>
+                    <p>12/13/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Grey_Human_Form.PNG" alt="Grey" style="width:100%">
+                    <h3>"Grey"</h3>
+                    <p>8/20/22 (Commission)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Pseudodragon Wizard V1.PNG" alt="Pseudodragon" style="width:100%">
+                    <h3>"A Pseudodragon"</h3>
+                    <p>11/12/21 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/aLittleCrow.png" alt="Crow" style="width:100%">
+                    <h3>"A Little Crow Chef"</h3>
+                    <p>12/02/22 (Commission)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/HoopEarring.png" alt="HoopEarring" style="width:100%">
+                    <h3>"Hoop Earring"</h3>
+                    <p>12/08/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Xaryxis Party.jpg" alt="LightofXaryxis" style="width:100%">
+                    <h3>"Starships and Scavers"</h3>
+                    <p>10/26/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Mermaid.PNG" alt="Mermaid" style="width:100%">
+                    <h3>"A Mermaid"</h3>
+                    <p>9/04/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Etna.PNG" alt="Etna" style="width:100%">
+                    <h3>Etna</h3>
+                    <p>7/19/22 (Fanart)</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- END MAIN -->
+    </div>
+
+</body>
+
+
+</html>
