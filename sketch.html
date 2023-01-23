@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("background1.png");
+        text-align: center;
+        color: white;
+    }
+
+    .titlecard {
+        background-color: rgba(0, 0, 0, 0.5);
+        float: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2% 5%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.5);
+        font-family: Arial;
+    }
+
+    /* Center website */
+    .main {
+        max-width: 2000px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 50px;
+        word-break: break-all;
+    }
+
+    .row {
+        margin: 8px -16px;
+    }
+
+    /* Add padding BETWEEN each column */
+    .row,
+    .row>.column {
+        padding: 8px;
+    }
+
+    /* Create four equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    /* Clear floats after rows */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Content */
+    .content {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 900px) {
+        .column {
+            width: 50%;
+        }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+
+    .quote {
+        padding: 2%;
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 10px;
+    }
+
+    .navbuttons {
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+    }
+
+    .topleft:hover {
+        filter: invert(100%);
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Solomon Garcia</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+        <div class="topleft"><a href="index.html"><img src="newLogoIcon.png" alt="logo" style="width: 75px; margin-top: 10%;"></a></div>
+        <img class="w3-image" src="Header5.png" alt="Roxanne" width="1500" height="600">
+        <div class="titlecard">
+            <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Sketchbook</h1>
+            <h5 class="w3-hide-large" style="white-space:nowrap">Sketchbook</h5>
+        </div>
+        <!-- Navbar (placed at the bottom of the header image) -->
+        <div class="w3-bar w3-light-grey w3-round w3-display-topmiddle w3-hide-small">
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="journey.html" class="w3-bar-item w3-button">My Journey</a>
+            <a href="portfolio.html" class="w3-bar-item w3-button">Portfolio</a>
+            <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        </div>
+    </header>
+    <!-- Page content -->
+    <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="Art/Sketches/IggyEvaSketch.PNG" alt="Iggy&Eva" style="width:100%">
+                    <p>12/17/22 (Original)</p>
+                </div>
+
+                <div class="content">
+                    <img src="Art/Sketches/Krys Jastor.PNG" alt="Krys" style="width:100%">
+                    <p>8/29/22 (Original)</p>
+                </div>
+                
+                <div class="content">
+                    <img src="Art/Sketches/Gnoblin.PNG" alt="Goblin-Warlock" style="width:100%">
+                    <p>5/27/22 (Original)</p>
+                </div>
+                
+                <div class="content">
+                    <img src="Art/Sketches/AlienA.PNG" alt="Cola-Alien" style="width:100%">
+                    <p>5/08/22 (Original)</p>
+                </div>
+                
+                <div class="content">
+                    <img src="Art/Sketches/ysabelReferenceSheet(Compressed).PNG" alt="Ysabel" style="width:100%">
+                    <p>3/30/22 (Original)</p>
+                </div>
+                
+                <div class="content">
+                    <img src="Art/Sketches/Fractal.PNG" alt="Anthony" style="width:100%">
+                    <p>8/03/21 (Original)</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="Art/Sketches/GoatGirl.PNG" alt="goat" style="width:100%">
+                    <p>10/31/22 (Original)</p>
+                </div>
+                
+                <div class="content">
+                    <img src="Art/Sketches/angryGuy_20220601213640.jpg" alt="anrgyGuy" style="width:100%">
+                    <p>6/1/22 (Original)</p>
+                </div>
+               
+                <div class="content">
+                    <img src="Art/Sketches/Endor.PNG" alt="lizard-man" style="width:100%">
+                    <p>5/13/22 (Original)</p>
+                </div>
+                
+                <div class="content">
+                    <img src="Art/Sketches/Raincoat_20220407115603.PNG" alt="Raincoat" style="width:100%">
+                    <p>4/07/22 (Original)</p>
+                </div>
+                
+                <div class="content">
+                    <img src="Art/Sketches/moonJester.PNG" alt="moonJester" style="width:100%">
+                    <p>4/07/22 (Original)</p>
+                </div>
+
+                <div class="content">
+                    <img src="Art/Sketches/Wendigo.PNG" alt="wendigo" style="width:100%">
+                    <p>3/29/22 (Original)</p>
+                </div>
+
+                <div class="content">
+                    <img src="Art/Sketches/Sword.PNG" alt="swordChick" style="width:100%">
+                    <p>3/03/22 (Original)</p>
+                </div>
+                <div class="content">
+                    <img src="Art/Sketches/soldier.PNG" alt="soldier" style="width:100%">
+                    <p>6/16/21 (Original)</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!-- END MAIN -->
+    </div>
+
+</body>
+
+</html>
